@@ -5,6 +5,7 @@
     "pyFEA",
     "bowley",
     "picomaterials",
-    "picounits"
+    "picounits",
+    "generalistic"
   ]
 }
