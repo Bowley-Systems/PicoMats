@@ -16,13 +16,18 @@ made general-purpose.
 
 
 <p align="center"><img src="media\logo.png" alt="PicoMaterials logo"></p>
-<p align="center">A Unit Informed Material Ontology.</p>
+<p align="center">A unit-informed, assumption-driven material ontology.</p>
 
 ---
 
 # Overview
 
 A unit informed material library for Computational Engineering
+
+```
+Element: Defined by what it is (atomic structure).
+Abstract: Defined by what it does (measured properties).
+```
 
 ## Documentation
 
