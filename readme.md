@@ -17,7 +17,6 @@ made general-purpose.
 
 <p align="center"><img src="media\logo.png" alt="PicoMaterials logo"></p>
 <p align="center">A Unit Informed Material Ontology.</p>
-<p align="center">Keep measurement assumptions throughout the pipeline.</p>
 
 ---
 
