@@ -32,6 +32,7 @@ PicoMats is an assumption-driven material ontology that sustains assumptions thr
 > ### Features:
 > - Follows a computational ontology called `Abstract-Fundamental Ontology`.
 > - Uses `UnitValues` and `PicoUnits` for encoding typed numerical definitions.
+> - Tracks assumptions with material definitions for reducing model uncertainty.
 
 ## What is the Abstract-Fundamental Ontology?
 
