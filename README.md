@@ -14,6 +14,8 @@ made general-purpose.
 — William Bowley, 12th of August, 2026
 -->
 
+<!-- Update this image before its on pypi -->
+
 <p align="center"><img src="media/logo.png" alt="PicoMats logo" style="width:100%; max-width:100%; display:block;"></p>
 <h4 align="center">A unit-informed, assumption-driven material ontology.</h4>
 <p align="center">
