@@ -95,7 +95,7 @@ When asking such a fundamental question, wouldn't it be best to derive the relat
 
 > [!NOTE]
 >
-> Both `abstract` and `fundamental` also make a good semantic boundary for model development. For example, `material.abstract.300k_copper` and `material.fundamental.copper` explicitly denote the reality of their origin.
+> Both `abstract` and `fundamental` also make a good semantic boundary for model development. For example, `material.abstract.copper` and `material.fundamental.copper` explicitly denote the reality of their origin.
 
 ## Proposed workflow
 
@@ -106,7 +106,7 @@ from picomats import mm
 from picomats import Materials
 
 # Pulls materials into the simulation
-copper = Materials.abstract.pure.copper_300k
+copper = Materials.abstract.pure.copper
 
 density = copper.density
 volume = 100 * mm ** 3
