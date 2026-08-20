@@ -95,13 +95,22 @@ from picomats import mm
 from picomats import Materials
 
 # Pulls materials into the simulation
-copper = Materials.abstract.300k_copper
+copper, copper_assumptions = Materials.abstract.pure.copper_300k
 
 density = copper.density
 volume = 100 * mm ** 3
 
 mass = volume * density
 # > Output: 0.896 m(kg)
+
+copper.assumptions.density
+# > Output:
+# >└── Method
+# >    ├── Hydrostatic Balance (Archimedes' Principle)
+# >    └── Media Type: Distilled Water
+# >└── Assumptions
+# >    ├── Lack of air bubbles within media
+# >    └── Media temperature stability
 ```
 
 ## Installation 
