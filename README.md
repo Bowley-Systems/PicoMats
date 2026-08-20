@@ -91,7 +91,7 @@ When asking such a fundamental question, wouldn't it be best to derive the relat
 
 ---
 
-> [!INFO]
+> [!NOTE]
 >
 > Both `abstract` and `fundamental` also make a good semantic boundary for model development. For example, `material.abstract.300k_copper` and `material.fundamental.copper` explicitly denote the reality of their origin.
 
