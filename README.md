@@ -84,7 +84,13 @@ Actually, how were these measurements obtained?
 
 When asking such a fundamental question, wouldn't it be best to derive the relations from what the material fundamentally is? Hence, you use `fundamental`, which describes what the material is, and build the necessary properties without measurement-implicit assumptions. 
 
-> [!info]
+> [!IMPORTANT]
+>
+> PicoMats does not calculate material properties from the fundamental characteristics of the elements. It is up to the user to compute them via custom modelling or external frameworks.
+
+---
+
+> [!INFO]
 >
 > Both `abstract` and `fundamental` also make a good semantic boundary for model development. For example, `material.abstract.300k_copper` and `material.fundamental.copper` explicitly denote the reality of their origin.
 
@@ -95,7 +101,7 @@ from picomats import mm
 from picomats import Materials
 
 # Pulls materials into the simulation
-copper, copper_assumptions = Materials.abstract.pure.copper_300k
+copper = Materials.abstract.pure.copper_300k
 
 density = copper.density
 volume = 100 * mm ** 3
