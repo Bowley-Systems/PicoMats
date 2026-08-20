@@ -66,7 +66,7 @@ What exactly is friction?
 Oh, random microscopic interactions...
 ```
 
-It's a mistake to assume it's impossible to model, but computational cost is ridiculous for most applications. Hence, you `abstract` it via empirical methods to measure friction, losing all but the necessary information.
+It's a mistake to assume it's impossible to model, but computational cost is prohibitive for most applications. Hence, you `abstract` it via empirical methods to measure friction, losing all but the necessary information.
 
 But `abstract` isn't always the right model...
 
