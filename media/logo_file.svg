@@ -10,8 +10,8 @@
    sodipodi:docname="logo_file.svg"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
    inkscape:export-filename="logo.png"
-   inkscape:export-xdpi="70.09137"
-   inkscape:export-ydpi="70.09137"
+   inkscape:export-xdpi="128"
+   inkscape:export-ydpi="128"
    inkscape:export-batch-path="C:\Users\WBowl\Documents\Work\PicoUnits\media"
    inkscape:export-batch-name="logo_file"
    xml:space="preserve"
@@ -34,7 +34,7 @@
      inkscape:antialias-rendering="true"
      showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="397"
+     inkscape:cx="432"
      inkscape:cy="177.5"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
@@ -1073,7 +1073,7 @@
        transform="scale(1.0514016,0.95111133)"><tspan
          sodipodi:role="line"
          id="tspan3"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:49.6564px;font-family:Romantic;-inkscape-font-specification:'Romantic Bold';fill:#219ebc;fill-opacity:1;stroke:none;stroke-width:1.24029"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:49.6564px;font-family:Romantic;-inkscape-font-specification:'Romantic Bold';fill:#006d77;fill-opacity:1;stroke:none;stroke-width:1.24029"
          x="38.559444"
          y="59.48679">Pico</tspan></text><text
        xml:space="preserve"
@@ -1084,4 +1084,4 @@
        transform="matrix(1.0351884,0,0,0.97536041,9.018371,2.0534674)"><tspan
          x="133.91661"
          y="55.766632"
-         id="tspan4">Mats</tspan></text></g></svg>
+         id="tspan2">Mats</tspan></text></g></svg>
