@@ -30,18 +30,18 @@ PicoMats is an assumption-driven material ontology that sustains assumptions thr
 
 > [!important]
 > ### Features:
-> - Follows a computational ontology called `Element–Abstract Ontology`.
+> - Follows a computational ontology called `Abstract-Fundamental Ontology`.
 > - Uses `UnitValues` and `PicoUnits` for encoding typed numerical definitions.
 
-## What is the Element–Abstract Ontology?
+## What is the Abstract-Fundamental Ontology?
 
-Element-Abstract Ontology is a computational abstraction for both reductionist and pragmatist applications.
+Abstract-Fundamental Ontology is a computational abstraction for both reductionist and pragmatist applications.
 
 The model is based on two categories:
 
 ```
-Element:    Defined by what it is       (atomic structure).
-Abstract:   Defined by what it does     (measured properties).
+Abstract:       Defined by what it does     (measured properties).
+Fundamental:    Defined by what it is       (atomic structure).
 ```
 
 ---
@@ -82,13 +82,26 @@ I'll just interpolate the standard Niobium definition.
 Actually, how were these measurements obtained?
 ```
 
-When asking such a fundamental question, wouldn't it be best to derive the relations from what the `element` fundamentally is? Hence, you use `element`, which describes what the material is, and build the necessary properties without measurement-implicit assumptions. 
+When asking such a fundamental question, wouldn't it be best to derive the relations from what the material fundamentally is? Hence, you use `fundamental`, which describes what the material is, and build the necessary properties without measurement-implicit assumptions. 
+
+> [!info]
+>
+> Both `abstract` and `fundamental` also make a good semantic boundary for model development. For example, `material.abstract.300k_copper` and `material.fundamental.copper` explicitly denote the reality of their origin.
 
 ## Quick Start
  
 ```py
-from picomats import
-# Work In Progress
+from picomats import mm
+from picomats import Materials
+
+# Pulls materials into the simulation
+copper = Materials.abstract.300k_copper
+
+density = copper.density
+volume = 100 * mm ** 3
+
+mass = volume * density
+# > Output: 0.896 m(kg)
 ```
 
 ## Installation 
