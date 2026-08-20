@@ -14,7 +14,7 @@ made general-purpose.
 — William Bowley, 12th of August, 2026
 -->
 
-<p align="center"><img src="media/logo.png" alt="PicoMaterials logo" style="width:100%; max-width:100%; display:block;"></p>
+<p align="center"><img src="media/logo.png" alt="PicoMats logo" style="width:100%; max-width:100%; display:block;"></p>
 <h4 align="center">A unit-informed, assumption-driven material ontology.</h4>
 <p align="center">
     Use the material. Sustain the assumptions. <br>
