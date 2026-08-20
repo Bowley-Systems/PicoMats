@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "PicoMats"
+version = "0.0.0"
+description = "A unit-informed, assumption-driven material ontology."
+
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+keywords = ["materials", "physics", "units", "assumptions"]
+
+authors = [
+  { name = "William Bowley", email = "wgrantbowley@gmail.com" },
+]
+maintainers = [
+  { name = "William Bowley", email = "wgrantbowley@gmail.com" },
+]
+
+dependencies = ["picounits", "numpy"]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Bowley-Systems/PicoMats"
+"Bug Tracker" = "https://github.com/Bowley-Systems/PicoMats/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/picomats"]
+include = [
+    "src/ontology/**/*",
+]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src/ontology",
+]
