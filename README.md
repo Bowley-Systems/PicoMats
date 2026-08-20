@@ -95,8 +95,10 @@ When asking such a fundamental question, wouldn't it be best to derive the relat
 >
 > Both `abstract` and `fundamental` also make a good semantic boundary for model development. For example, `material.abstract.300k_copper` and `material.fundamental.copper` explicitly denote the reality of their origin.
 
-## Quick Start
- 
+## Proposed workflow
+
+PicoMats is still under development for `v0.1-alpha`. Implementation details may change, but the core abstractions are unlikely to.
+
 ```py
 from picomats import mm
 from picomats import Materials
@@ -122,7 +124,7 @@ copper.assumptions.density
 
 ## Installation 
  
-To install:
+Until release, this only installs the overview page and related files:
 ```bash
 pip install PicoMats
 ```
