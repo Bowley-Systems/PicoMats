@@ -16,10 +16,16 @@ made general-purpose.
 
 
 <p align="center"><img src="media/logo.png" alt="PicoMaterials logo" style="width:100%; max-width:100%; display:block;"></p>
-<p align="center">A unit-informed, assumption-driven material ontology.</p>
-
+<h4 align="center">A unit-informed, assumption-driven material ontology.</h4>
+<p align="center">
+    Define the assumptions. Define the material. <br>
+    Reduce uncertainty by making every assumption explicit.
+</p>
 
 # Overview
+
+
+
 
 A unit informed material library for Computational Engineering
 
