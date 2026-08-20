@@ -6,6 +6,9 @@
     "bowley",
     "picomats",
     "picounits",
-    "generalistic"
+    "generalistic",
+    "pypi",
+    "numpy",
+    "pypa"
   ]
 }

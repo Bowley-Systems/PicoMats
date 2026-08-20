@@ -99,7 +99,7 @@ When asking such a fundamental question, wouldn't it be best to derive the relat
 
 ## Proposed workflow
 
-PicoMats is still under development for `v0.1-alpha`. Implementation details may change, but the core abstractions are unlikely to.
+PicoMats is still under development for `v0.1-alpha`. Implementation details and some abstractions may change.
 
 ```py
 from picomats import mm
