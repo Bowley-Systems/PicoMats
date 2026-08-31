@@ -47,7 +47,7 @@ PicoMats is an assumption-driven material ontology that sustains assumptions thr
 
 ### What is the Abstract-Fundamental Ontology?
 
-AFO is a computational abstraction for both reductionist and pragmatist applications.
+It is a computational abstraction for both reductionist and pragmatist applications.
 
 The model is based on two categories:
 
