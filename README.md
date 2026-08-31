@@ -78,7 +78,7 @@ What exactly is friction?
 Oh, random microscopic interactions...
 ```
 
-It's possible to model but computational impractical. Hence, the `abstract` section for empirical measurements.
+It's possible to model but computationally impractical for most applications. Hence, the `abstract` section exists for empirical measurements.
 
 <br>
 
@@ -96,10 +96,10 @@ I'll just interpolate the standard Niobium definition.
 Actually, how were these measurements obtained?
 ```
 
-When asking a fundamental question, build from fundamental properties. Hence, use the `fundamental` section.
+When asking a fundamental question, it's better to build from fundamental properties. 
+Hence, use the `fundamental` section.
 
 > PicoMats does not calculate material properties from the fundamental characteristics of the elements.
-
 ---
 
 ### Quick Start
