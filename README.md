@@ -16,28 +16,36 @@ made general-purpose.
 
 <!-- Update this image before its on pypi -->
 
-<p align="center"><img src="https://raw.githubusercontent.com/Bowley-Systems/PicoMats/refs/heads/main/media/logo.png" alt="PicoMats logo" style="width:100%; max-width:100%; display:block;"></p>
-<h4 align="center">A unit-informed, assumption-driven material ontology.</h4>
+<p align="center">
+    <img 
+        src="https://raw.githubusercontent.com/Bowley-Systems/PicoMats/refs/heads/main/media/logo.png" 
+        alt="PicoMats logo" 
+        style="width:100%; max-width:100%; display:block;"
+    >
+</p>
 <p align="center">
     Use the material. Sustain the assumptions. <br>
     Reduce uncertainty by making every assumption explicit.
 </p>
 
-# Overview
+### Overview
 
 ![License](https://img.shields.io/badge/License-MIT-E14F4C?style=flat-square)
 ![Python Version](https://img.shields.io/badge/Python-3.10%2B-006D77?style=flat-square)
+![Coverage](https://img.shields.io/badge/coverage-N/A-E14F4C?style=flat-square)
+[![PyPI Downloads](https://img.shields.io/pepy/dt/picomats?label=downloads\&style=flat-square\&color=006D77)](https://pepy.tech/projects/picomats)
 
 PicoMats is an assumption-driven material ontology that sustains assumptions throughout your pipeline. It provides unit-informed material definitions with accompanying assumptions.  
 
-> [!important]
->
-> ### Features:
-> - Follows a computational ontology called `Abstract-Fundamental Ontology`.
-> - Uses `UnitValues` and `PicoUnits` for encoding typed numerical definitions.
-> - Tracks assumptions alongside material definitions to reduce model uncertainty.
+```
+- Follows a computational ontology called `Abstract-Fundamental Ontology`.
+- Uses `UnitValues` and `PicoUnits` for encoding typed numerical definitions.
+- Tracks assumptions alongside material definitions to reduce model uncertainty.
+```
 
-## What is the Abstract-Fundamental Ontology?
+---
+
+### What is the Abstract-Fundamental Ontology?
 
 Abstract-Fundamental Ontology is a computational abstraction for both reductionist and pragmatist applications.
 
@@ -88,17 +96,13 @@ Actually, how were these measurements obtained?
 
 When asking such a fundamental question, wouldn't it be best to derive the relations from what the material fundamentally is? Hence, you use `fundamental`, which describes what the material is, and build the necessary properties without measurement-implicit assumptions. 
 
-> [!IMPORTANT]
->
 > PicoMats does not calculate material properties from the fundamental characteristics of the elements. It is up to the user to compute them via custom modelling or external frameworks.
+
+Both `abstract` and `fundamental` also make a good semantic boundary for model development. For example, `material.abstract.copper` and `material.fundamental.copper` explicitly denote the reality of their origin.
 
 ---
 
-> [!NOTE]
->
-> Both `abstract` and `fundamental` also make a good semantic boundary for model development. For example, `material.abstract.copper` and `material.fundamental.copper` explicitly denote the reality of their origin.
-
-## Proposed workflow
+### Proposed workflow
 
 PicoMats is still under development for `v0.1-alpha`. Implementation details and some abstractions may change.
 
@@ -125,13 +129,17 @@ copper.assumptions.density
 # >    └── Media temperature stability
 ```
 
-## Installation 
+---
+
+### Installation 
  
 Until release, this only installs the overview page and related files:
 ```bash
 pip install PicoMats
 ```
 
-### Documentation
+#### Documentation
 
 All internal documentation can be found within this repo's [issues](https://github.com/wgbowley/PicoMaterials/issues).
+
+---
