@@ -52,8 +52,8 @@ It is a computational abstraction for both reductionist and pragmatist applicati
 The model is based on two categories:
 
 ```
-Abstract:       Defined by what it does     (measured properties).
-Fundamental:    Defined by what it is       (atomic structure).
+Abstract:       Defined by what it does     (characteristics).
+Fundamental:    Defined by what it is       (structure/state).
 ```
 
 <br>
