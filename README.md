@@ -80,6 +80,8 @@ Oh, random microscopic interactions...
 
 It's a mistake to assume it's impossible to model, but computational cost is prohibitive for most applications. Hence, you `abstract` it via empirical methods to measure friction, losing all but the necessary information.
 
+<br>
+
 But `abstract` isn't always the right model...
 
 ```
@@ -98,13 +100,12 @@ When asking such a fundamental question, wouldn't it be best to derive the relat
 
 > PicoMats does not calculate material properties from the fundamental characteristics of the elements. It is up to the user to compute them via custom modelling or external frameworks.
 
-Both `abstract` and `fundamental` also make a good semantic boundary for model development. For example, `material.abstract.copper` and `material.fundamental.copper` explicitly denote the reality of their origin.
-
 ---
 
 ### Proposed workflow
 
-PicoMats is still under development for `v0.1-alpha`. Implementation details and some abstractions may change.
+PicoMats is still under development for `v0.1-alpha`. <br> 
+Implementation details and some abstractions may change.
 
 ```py
 from picomats import mm
@@ -133,13 +134,14 @@ copper.assumptions.density
 
 ### Installation 
  
-Until release, this only installs the overview page and related files:
+To install:
+
 ```bash
 pip install PicoMats
 ```
 
 #### Documentation
 
-All internal documentation can be found within this repo's [issues](https://github.com/wgbowley/PicoMaterials/issues).
+Full documentation is available in the [`docs/`](https://github.com/Bowley-Systems/PicoMaterials/main/docs) folder, including API reference, changelog, and contributors.
 
 ---
