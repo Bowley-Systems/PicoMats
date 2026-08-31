@@ -78,9 +78,7 @@ What exactly is friction?
 Oh, random microscopic interactions...
 ```
 
-It's a mistake to assume it's impossible to model, but computational cost is prohibitive for most applications. Hence, you `abstract` it via empirical methods.
-
-<br>
+It's possible to model but computational impractical. Hence, the `abstract` section for empirical measurements.
 
 But `abstract` isn't always the right model...
 
@@ -96,16 +94,13 @@ I'll just interpolate the standard Niobium definition.
 Actually, how were these measurements obtained?
 ```
 
-When asking such a fundamental question, wouldn't it be best to derive the relations from what the material fundamentally is? Hence, you use `fundamental`.
+When asking a fundamental question, build from fundamental properties. Hence, use the `fundamental` section.
 
-> PicoMats does not calculate material properties from the fundamental characteristics of the elements. It is up to the user to compute them via custom modelling or external frameworks.
+> PicoMats does not calculate material properties from the fundamental characteristics of the elements.
 
 ---
 
-### Proposed workflow
-
-PicoMats is still under development for `v0.1-alpha`. <br> 
-Implementation details and some abstractions may change.
+### Quick Start
 
 ```py
 from picomats import mm
@@ -119,16 +114,9 @@ volume = 100 * mm ** 3
 
 mass = volume * density
 # > Output: 0.896 m(kg)
-
-copper.assumptions.density
-# > Output:
-# >└── Method
-# >    ├── Hydrostatic Balance (Archimedes' Principle)
-# >    └── Media Type: Distilled Water
-# >└── Assumptions
-# >    ├── Lack of air bubbles within media
-# >    └── Media temperature stability
 ```
+
+> An introduction example is available in [`example/`](https://github.com/Bowley-Systems/PicoMats/tree/main/example).
 
 ---
 
@@ -142,6 +130,6 @@ pip install PicoMats
 
 #### Documentation
 
-Full documentation is available in the [`docs/`](https://github.com/Bowley-Systems/PicoMaterials/main/docs) folder, including API reference, changelog, and contributors.
+Full documentation is available in the [`docs/`](https://github.com/Bowley-Systems/PicoMats/main/docs) folder, including API reference, changelog, and contributors.
 
 ---
