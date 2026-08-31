@@ -78,7 +78,7 @@ What exactly is friction?
 Oh, random microscopic interactions...
 ```
 
-It's a mistake to assume it's impossible to model, but computational cost is prohibitive for most applications. Hence, you `abstract` it via empirical methods to measure friction, losing all but the necessary information.
+It's a mistake to assume it's impossible to model, but computational cost is prohibitive for most applications. Hence, you `abstract` it via empirical methods.
 
 <br>
 
@@ -96,7 +96,7 @@ I'll just interpolate the standard Niobium definition.
 Actually, how were these measurements obtained?
 ```
 
-When asking such a fundamental question, wouldn't it be best to derive the relations from what the material fundamentally is? Hence, you use `fundamental`, which describes what the material is, and build the necessary properties without measurement-implicit assumptions. 
+When asking such a fundamental question, wouldn't it be best to derive the relations from what the material fundamentally is? Hence, you use `fundamental`.
 
 > PicoMats does not calculate material properties from the fundamental characteristics of the elements. It is up to the user to compute them via custom modelling or external frameworks.
 
