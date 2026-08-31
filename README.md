@@ -58,7 +58,7 @@ Fundamental:    Defined by what it is       (atomic structure).
 
 <br>
 
-The ontology emerges from this simple thought experiment:
+The ontology emerges from this simple example:
 
 ```
 Let's model a ball rolling down a ramp.
