@@ -35,7 +35,8 @@ made general-purpose.
 ![Coverage](https://img.shields.io/badge/coverage-N/A-E14F4C?style=flat-square)
 [![PyPI Downloads](https://img.shields.io/pepy/dt/picomats?label=downloads\&style=flat-square\&color=006D77)](https://pepy.tech/projects/picomats)
 
-PicoMats is an assumption-driven material ontology that sustains assumptions throughout your pipeline. It provides unit-informed material definitions with accompanying assumptions.  
+PicoMats is an assumption-driven material ontology that sustains assumptions throughout your pipeline. 
+It provides unit-informed material definitions with accompanying assumptions.  
 
 ```
 - Follows a computational ontology called `Abstract-Fundamental Ontology`.
@@ -78,7 +79,8 @@ What exactly is friction?
 Oh, random microscopic interactions...
 ```
 
-It's possible to model but computationally impractical for most applications. Hence, the `abstract` section exists for empirical measurements.
+It's possible to model but computationally impractical for most applications.
+Hence, the `abstract` section exists for empirical measurements.
 
 <br>
 
@@ -99,7 +101,8 @@ Actually, how were these measurements obtained?
 When asking a fundamental question, it's better to build from fundamental properties. 
 Hence, use the `fundamental` section.
 
-> PicoMats provides the structure for you to build characteristics through modelling, using fundamental properties as your foundation.
+> PicoMats provides the structure for you to build characteristics through modelling, 
+> using fundamental properties as your foundation.
 
 ---
 
@@ -139,6 +142,7 @@ pip install PicoMats
 
 #### Documentation
 
-Full documentation is available in the [`docs/`](https://github.com/Bowley-Systems/PicoMats/main/docs) folder, including API reference, changelog, and contributors.
+Full documentation is available in the [`docs/`](https://github.com/Bowley-Systems/PicoMats/main/docs) folder, 
+including API reference, changelog, and contributors.
 
 ---

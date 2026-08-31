@@ -2,4 +2,4 @@
 # disable=W0105,
 
 [FORMAT]
-max-line-length=100     # Maximum number of characters on a single line.
+max-line-length = 100     # Maximum number of characters on a single line.
