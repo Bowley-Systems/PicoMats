@@ -99,7 +99,8 @@ Actually, how were these measurements obtained?
 When asking a fundamental question, it's better to build from fundamental properties. 
 Hence, use the `fundamental` section.
 
-> PicoMats does not calculate material properties from the fundamental characteristics of the elements.
+> PicoMats provides the structure for you to build characteristics through modelling, using fundamental properties as your foundation.
+
 ---
 
 ### Quick Start
