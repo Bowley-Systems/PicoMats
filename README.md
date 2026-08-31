@@ -56,8 +56,6 @@ Abstract:       Defined by what it does     (measured properties).
 Fundamental:    Defined by what it is       (atomic structure).
 ```
 
----
-
 The ontology emerges from this simple thought experiment:
 
 ```
