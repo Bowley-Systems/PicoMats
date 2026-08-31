@@ -117,6 +117,12 @@ volume = 100 * mm ** 3
 
 mass = volume * density
 # > Output: 0.896 m(kg)
+
+copper.assumptions.density
+# > Output:
+# >└── Method
+# >    ├── Hydrostatic Balance (Archimedes' Principle)
+# >    └── Media Type: Distilled Water
 ```
 
 > An introduction example is available in [`example/`](https://github.com/Bowley-Systems/PicoMats/tree/main/example).
