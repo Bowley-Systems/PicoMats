@@ -2,5 +2,6 @@
 Filename: manager.py
 
 Description:
-    TBD - Work In Progress
+    Managers the materials within
+    the ontology.
 """

@@ -1,7 +1,9 @@
 # .pylintrc
 
 [MESSAGES CONTROL]
-disable=W0105,
+disable     =   W0105,      # pointless-string-statement - String statement has no effect
+                R0903,      # too-few-public-methods - Too few public methods (<2)
+                C0321,      # Multiple-statements - More than one statement on a single line.
 
 [FORMAT]
-max-line-length = 100     # Maximum number of characters on a single line.
+max-line-length = 100       # Maximum number of characters on a single line
