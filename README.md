@@ -58,7 +58,9 @@ Abstract:       Defined by what it does     (characteristics).
 Fundamental:    Defined by what it is       (structure/state).
 ```
 
-<br>
+---
+
+### Why does it exist?
 
 The ontology emerges from this simple series:
 
@@ -80,7 +82,9 @@ What exactly is friction?
 Oh, random microscopic interactions...
 ```
 
-It's possible to model but computationally impractical for most applications. <br>
+It's possible to model but computationally impractical for most applications. 
+<br>
+
 Hence, the `abstract` section exists for empirical measurements.
 
 <br>
@@ -99,10 +103,9 @@ I'll just interpolate the standard Niobium definition.
 Actually, how were these measurements obtained?
 ```
 
-> PicoMats provides the structure for you to build characteristics through modelling, 
-> using fundamental properties as your foundation.
+When asking a fundamental question, it's better to build from fundamental properties. 
+<br>
 
-When asking a fundamental question, it's better to build from fundamental properties. <br>
 Hence, use the `fundamental` section.
 
 ---
