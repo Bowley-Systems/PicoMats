@@ -82,9 +82,7 @@ What exactly is friction?
 Oh, random microscopic interactions...
 ```
 
-It's possible to model but computationally impractical for most applications. 
-<br>
-
+It's possible to model but computationally impractical for most applications. <br>
 Hence, the `abstract` section exists for empirical measurements.
 
 <br>
@@ -103,9 +101,7 @@ I'll just interpolate the standard Niobium definition.
 Actually, how were these measurements obtained?
 ```
 
-When asking a fundamental question, it's better to build from fundamental properties. 
-<br>
-
+When asking a fundamental question, it's better to build from fundamental properties. <br>
 Hence, use the `fundamental` section.
 
 ---
