@@ -11,6 +11,7 @@
     "numpy",
     "pypa",
     "picomaterials",
-    "pylintrc"
+    "pylintrc",
+    "matweb"
   ]
 }
