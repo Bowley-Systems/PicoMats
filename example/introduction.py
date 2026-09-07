@@ -9,4 +9,4 @@ Descriptions:
 from picomats import Materials
 
 
-Materials.info()
+Materials.abstract
