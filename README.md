@@ -99,11 +99,11 @@ I'll just interpolate the standard Niobium definition.
 Actually, how were these measurements obtained?
 ```
 
-When asking a fundamental question, it's better to build from fundamental properties. <br>
-Hence, use the `fundamental` section.
-
 > PicoMats provides the structure for you to build characteristics through modelling, 
 > using fundamental properties as your foundation.
+
+When asking a fundamental question, it's better to build from fundamental properties. <br>
+Hence, use the `fundamental` section.
 
 ---
 

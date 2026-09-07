@@ -10,6 +10,7 @@
     "pypi",
     "numpy",
     "pypa",
-    "picomaterials"
+    "picomaterials",
+    "pylintrc"
   ]
 }
