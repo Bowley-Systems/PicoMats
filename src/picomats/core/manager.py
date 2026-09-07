@@ -11,7 +11,7 @@ from importlib import resources
 from picounits import Parser, DynamicLoader, inject_unit_frame
 
 from picomats.core.structure import Node, NodalRepresentation
-from picomats.constants.picomats import ONTOLOGY_LOCATION, DERIVED_UNITS_LOCATION
+from picomats.constants.picomats import ONTOLOGY, DERIVED_UNITS, UNIT_FRAME
 
 
 class Material(DynamicLoader):
@@ -50,10 +50,13 @@ class Manager:
     def _load_from_package(self) -> None:
         """ Loads the material ontology """
         try:
-            ontology = resources.files(ONTOLOGY_LOCATION)
+            ontology = resources.files(ONTOLOGY)
 
-            # Injects unit frame and scans ontology
-            inject_unit_frame(ontology / DERIVED_UNITS_LOCATION)
+            # Injects unit frame & derived units
+            inject_unit_frame(ontology / UNIT_FRAME)
+            Parser.import_derived(ontology / DERIVED_UNITS)
+
+            # Scans ontology structure
             self.ontology = NodalRepresentation.scan(ontology)
 
         except Exception as err:

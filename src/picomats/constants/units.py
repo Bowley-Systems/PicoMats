@@ -54,7 +54,6 @@ nanosecond  = ns = 1 * NANO  * second
 # =============== Mass units ===============
 
 
-kilogram    = kg = 1 * KILO * kilogram
 gram        = g  = 1 * MILLI * kilogram
 milligram   = mg = 1 * MICRO * kilogram
 
