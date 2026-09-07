@@ -86,6 +86,8 @@ It's possible to model but computationally impractical for most applications. <b
 Hence, the `abstract` section exists for empirical measurements.
 
 <br>
+<hr style="border: none; border-top: 1px dashed #ccc;">
+<br>
 
 But `abstract` isn't always the right model...
 
