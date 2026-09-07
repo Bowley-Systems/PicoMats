@@ -12,6 +12,13 @@
     "pypa",
     "picomaterials",
     "pylintrc",
-    "matweb"
+    "matweb",
+    "nullset",
+    "giga",
+    "gi",
+    "milli",
+    "centi",
+    "pico",
+    "picometer"
   ]
 }

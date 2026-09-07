@@ -1,29 +1,52 @@
 # pylint: skip-file
 # picomats/__init__.py
 
-from picounits import inject_unit_frame
-from importlib import resources
+from picomats.constants.units import *
+from picomats.core.manager import Manager
 
-# Injects the ontology unit frame into the system.
-inject_unit_frame(resources.files("ontology") / ".picounits")
-
-from importlib import resources
+# Referenced the manager as material.
+Materials = Manager()
 
 
-def scan_ontology_tree(traversable, indent=0):
-  """Recursively scans and prints the contents of a Traversable path."""
-  for item in traversable.iterdir():
-    # Print with indentation to show hierarchy
-    prefix = "  " * indent
-    if item.is_dir():
-      print(f"{prefix}📁 {item.name}/")
-      # Recurse deeper into the subdirectory
-      scan_ontology_tree(item, indent + 1)
-    else:
-      print(f"{prefix}📄 {item.name}")
-
-
-# Start scanning from the root of the "ontology" package
-root_dir = resources.files("ontology")
-print("Scanning ontology package structure:")
-scan_ontology_tree(root_dir)
+# API Promises
+__all__ = [
+    # Materials
+    "Materials",
+    
+    # Base units
+    "second", "s", "meter", "m", "kilogram", "kg", "ampere", "A",
+    "kelvin", "K", "mole", "mol", "candela", "cd", 
+    "dimensionless", "nullset",
+    
+    "TIME", "LENGTH", "MASS", "CURRENT", "TEMPERATURE",
+    "AMOUNT", "LUMINOSITY", "NULLSET",
+    
+    # Scales
+    "GIGA", "gi", "MEGA", "me", "KILO", "ki", "CENTI", "ce",
+    "MILLI", "mi", "MICRO", "ui", "NANO", "na", "PICO", "pi",
+    
+    # Scaled length units
+    "kilometer", "km", "centimeter", "cm", "millimeter", "mm",
+    "micrometer", "um", "nanometer", "nm", "picometer", "pm",
+    
+    # Scaled time units
+    "millisecond", "ms", "microsecond", "us", "nanosecond", "ns",
+    
+    # Mass units
+    "gram", "g", "milligram", "mg",
+    
+    # Derived unit definitions (constants)
+    "FORCE", "ENERGY", "POWER", "PRESSURE", "FREQUENCY",
+    "CHARGE", "VOLTAGE", "RESISTANCE", "CAPACITANCE", "INDUCTANCE",
+    "MAGNETIC_FLUX", "MAGNETIC_FIELD", "CONDUCTANCE",
+    "VOLUMETRIC_HEAT_CAPACITY", "VOLUMETRIC_HEATING",
+    
+    # Derived named units
+    "newton", "N", "joule", "J", "watt", "W", "pascal", "Pa",
+    "hertz", "Hz", "coulomb", "C", "volt", "V", "ohm", "R",
+    "farad", "F", "henry", "H", "tesla", "T", "weber", "Wb",
+    "siemens", "S",
+    
+    # Heat transfer units
+    "volumetric_capacity", "volumetric_heating", "convection_coefficient",
+]

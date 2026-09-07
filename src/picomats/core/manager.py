@@ -10,10 +10,9 @@ from typing import Any
 from importlib import resources
 from picounits import Parser, DynamicLoader, inject_unit_frame
 
-from picomats.picomats import ONTOLOGY_LOCATION, DERIVED_UNITS_LOCATION
 from picomats.core.structure import Node, NodalRepresentation
+from picomats.constants.picomats import ONTOLOGY_LOCATION, DERIVED_UNITS_LOCATION
 
-_ = Parser
 
 class Material(DynamicLoader):
     """ Defines the Material structure via inheritance """
