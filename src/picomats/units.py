@@ -2,8 +2,8 @@
 Filename: units.py
 
 Description:
-    Defines unit notation based on ontology
-    unit frame (Metric). 
+    Defines unit notation based on 
+    ontology unit frame (Metric). 
 """
 
 from picounits import PrefixScale
@@ -11,6 +11,7 @@ from picounits.constants import TIME, LENGTH, MASS, CURRENT,TEMPERATURE, AMOUNT,
 
 
 # =============== Base units (SI names) ===============
+
 
 second          = s         = TIME
 meter           = m         = LENGTH
@@ -24,6 +25,7 @@ dimensionless   = nullset   = NULLSET
 
 # =============== Predefined scales for quantities ===============
 
+
 GIGA    = gi  = PrefixScale.GIGA
 MEGA    = me  = PrefixScale.MEGA
 KILO    = ki  = PrefixScale.KILO
@@ -35,6 +37,7 @@ PICO    = pi  = PrefixScale.PICO
 
 
 # =============== Scaled length units ===============
+
 
 kilometer   = km = 1 * KILO  * meter
 centimeter  = cm = 1 * CENTI * meter
@@ -82,7 +85,9 @@ CONDUCTANCE     = 1 / RESISTANCE
 VOLUMETRIC_HEAT_CAPACITY = ENERGY / (meter**3 * kelvin)
 VOLUMETRIC_HEATING      = POWER / meter**3
 
+
 # =============== Derived named units ===============
+
 
 newton          = N     = FORCE
 joule           = J     = ENERGY
@@ -98,10 +103,13 @@ tesla           = T     = MAGNETIC_FIELD
 weber           = Wb    = MAGNETIC_FLUX
 siemens         = S     = CONDUCTANCE
 
+
 # =============== Heat transfer units ===============
+
 
 volumetric_capacity     = VOLUMETRIC_HEAT_CAPACITY
 volumetric_heating      = VOLUMETRIC_HEATING
 convection_coefficient  = watt/(meter ** 2 * kelvin)
+
 
 # ===================================================

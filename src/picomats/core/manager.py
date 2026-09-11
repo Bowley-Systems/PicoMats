@@ -12,7 +12,7 @@ from importlib import resources
 from picounits import Parser, DynamicLoader, inject_unit_frame
 
 from picomats.core.structure import Node, NodalRepresentation
-from picomats.constants.picomats import ONTOLOGY, DERIVED_UNITS, UNIT_FRAME
+from picomats.configuration.picomats import ONTOLOGY, DERIVED_UNITS, UNIT_FRAME
 
 
 class Material(DynamicLoader):
