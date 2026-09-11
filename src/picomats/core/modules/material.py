@@ -21,7 +21,7 @@ class Material(DynamicLoader):
         if name is not None:
             # Removes ordering when name is not none
             self.lx_name = Node.remove_ordering(name)
-    
+
         if self.lx_name is not None:
             # Removes ordering when lx_name is not none
             self.lx_name = Node.remove_ordering(self.lx_name)
