@@ -2,34 +2,21 @@
 Filename: manager.py
 
 Description:
-    Managers the materials within the ontology.
+    Managers the materials 
+    within the ontology.
 """
 
-
 from typing import Any
+
 from pathlib import Path
 from importlib import resources
-from picounits import Parser, DynamicLoader, inject_unit_frame
+from picounits import Parser, inject_unit_frame
 
-from picomats.core.structure import Node, NodalRepresentation
+from picomats.core.modules.structure import Node, NodalRepresentation
+from picomats.core.modules.material import Material
+
 from picomats.configuration.picomats import ONTOLOGY, DERIVED_UNITS, UNIT_FRAME
 from picomats.utilities.errors import ManagerError
-
-
-class Material(DynamicLoader):
-    """ Defines the Material structure via inheritance """
-    def __repr__(self) -> str:
-        """ Returns the material name and attributes """
-        attributes = self._attributes()
-
-        filtered_attributes = []
-        for attribute in attributes:
-            # Removes the required version in `.uiv` tag from materials.
-            if str(attribute).lower() == "version": continue
-            filtered_attributes.append(attribute)
-
-        items = ', '.join(filtered_attributes)
-        return f'{self.lx_name}({items})'
 
 
 class Manager:
