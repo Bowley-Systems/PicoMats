@@ -11,5 +11,5 @@ from picomats import Materials
 
 Materials.info()
 
-boron = Materials.fundamental.boron
+boron = Materials.fundamental.hydrogen
 boron.info()

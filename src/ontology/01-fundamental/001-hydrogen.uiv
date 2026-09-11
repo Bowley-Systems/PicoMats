@@ -2,5 +2,28 @@
 format: 0.1.2
 unit_frame: metric.ut
 
+[sources]
+pub_chem_element: "https://pubchem.ncbi.nlm.nih.gov/element/Hydrogen"
+
 [base]
-protons: 2 
+protons: 1
+neutrons: 0
+electrons: 1
+
+[isotope.protium]
+neutrons: 0
+
+[isotope.deuterium]
+neutrons: 1
+
+[isotope.tritium]
+neutrons: 2
+
+[ion.cation]
+electrons: 0
+
+[ion.neutral]
+electrons: 1
+
+[ion.anion]
+electrons: 2
