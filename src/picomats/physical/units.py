@@ -7,10 +7,19 @@ Description:
 """
 
 from picounits import PrefixScale
-from picounits.constants import TIME, LENGTH, MASS, CURRENT,TEMPERATURE, AMOUNT, LUMINOSITY, NULLSET
+from picounits.constants import (
+    TIME,
+    LENGTH,
+    MASS,
+    CURRENT,
+    TEMPERATURE,
+    AMOUNT,
+    LUMINOSITY,
+    NULLSET
+)
 
 
-# =============== Base units (SI names) ===============
+# ================== Base units (SI names) ==================
 
 
 second          = s         = TIME
@@ -23,7 +32,7 @@ candela         = cd        = LUMINOSITY
 dimensionless   = nullset   = NULLSET
 
 
-# =============== Predefined scales for quantities ===============
+# ============ Predefined scales for quantities =============
 
 
 GIGA    = gi  = PrefixScale.GIGA
@@ -36,7 +45,7 @@ NANO    = na  = PrefixScale.NANO
 PICO    = pi  = PrefixScale.PICO
 
 
-# =============== Scaled length units ===============
+# ================ Scaled length units ======================
 
 
 kilometer   = km = 1 * KILO  * meter
@@ -47,21 +56,21 @@ nanometer   = nm = 1 * NANO  * meter
 picometer   = pm = 1 * PICO  * meter
 
 
-# =============== Scaled time units ===============
+# ================= Scaled time units =======================
 
 millisecond = ms = 1 * MILLI * second
 microsecond = us = 1 * MICRO * second
 nanosecond  = ns = 1 * NANO  * second
 
 
-# =============== Mass units ===============
+# ==================== Mass units ===========================
 
 
 gram        = g  = 1 * MILLI * kilogram
 milligram   = mg = 1 * MICRO * kilogram
 
 
-# =============== Derived unit definitions ===============
+# ============== Derived unit definitions ===================
 
 
 # Mechanical units
@@ -86,7 +95,7 @@ VOLUMETRIC_HEAT_CAPACITY = ENERGY / (meter**3 * kelvin)
 VOLUMETRIC_HEATING      = POWER / meter**3
 
 
-# =============== Derived named units ===============
+# ============== Derived named units ========================
 
 
 newton          = N     = FORCE
@@ -104,7 +113,7 @@ weber           = Wb    = MAGNETIC_FLUX
 siemens         = S     = CONDUCTANCE
 
 
-# =============== Heat transfer units ===============
+# ================ Heat transfer units ======================
 
 
 volumetric_capacity     = VOLUMETRIC_HEAT_CAPACITY
@@ -112,4 +121,4 @@ volumetric_heating      = VOLUMETRIC_HEATING
 convection_coefficient  = watt/(meter ** 2 * kelvin)
 
 
-# ===================================================
+# ===========================================================

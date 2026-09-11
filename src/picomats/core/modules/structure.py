@@ -40,16 +40,18 @@ class Node:
         self.children: list[Node] = []
         self.endpoint: list[Traversable] = []
 
-    def info(self) -> None:
+    def info(self, depth) -> None:
         """ Recursively prints the structure of the node as a tree. """
         context = LoaderContext()
         print(f"{self.remove_ordering(self.name)}:.")
 
         # Prints the tree structure
-        self.print_contents(context)
+        self.print_contents(context, depth)
 
-    def print_contents(self, context: LoaderContext) -> None:
+    def print_contents(self, context: LoaderContext, depth) -> None:
         """ Prints endpoints and child nodes with proper formatting. """
+        if depth <= 0: return
+
         items = self._get_items()
         for index, item in enumerate(items):
             # Constructs the formatting for that item
@@ -66,7 +68,7 @@ class Node:
                 children = self.remove_ordering(item.name)
 
                 print(f"{item_context.indent}{connector}{children}")
-                item.print_contents(item_context.next_level())
+                item.print_contents(item_context.next_level(), depth - 1)
 
     def _get_items(self) -> list[str | Node]:
         """ Gets node endpoints and children as a list. """

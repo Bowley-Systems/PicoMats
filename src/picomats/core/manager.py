@@ -29,10 +29,10 @@ class Manager:
             # Imports the ontology for base manager.
             self._load_from_package()
 
-    def info(self) -> None:
+    def info(self, depth: int = 3) -> None:
         """ Displays the material ontology """
         if isinstance(self.ontology, Node):
-            self.ontology.info()
+            self.ontology.info(depth)
             return
 
         msg = "Failed to display ontology due to loading error."

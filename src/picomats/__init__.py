@@ -1,7 +1,9 @@
 # pylint: skip-file
 # picomats/__init__.py
 
-from picomats.units import *
+from picomats.physical.units import *
+from picomats.physical.constants import *
+
 from picomats.core.manager import Manager
 
 # Referenced the manager as material.

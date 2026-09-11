@@ -6,10 +6,9 @@ Descriptions:
     Introduces the mechanics of picomats via a few examples
 """
 
-from picomats import mm
 from picomats import Materials
 
 Materials.info()
 
-boron = Materials.fundamental.hydrogen
-boron.info()
+hydrogen = Materials.fundamental.hydrogen
+hydrogen.info()
