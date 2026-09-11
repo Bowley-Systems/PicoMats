@@ -106,7 +106,7 @@ Hence, use the `fundamental` section.
 
 ### Quick Start
 
-A step-by-step introduction is available in [`example/`](https://github.com/Bowley-Systems/PicoMats/tree/main/example). 
+A step-by-step introduction is available in [`example/`](https://github.com/Bowley-Systems/PicoMats/tree/main/example). <br> 
 Below is a standard application:
 
 ```py
