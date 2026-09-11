@@ -14,8 +14,6 @@ made general-purpose.
 — William Bowley, 12th of August, 2026
 -->
 
-<!-- Update this image before its on pypi -->
-
 <p align="center">
     <img 
         src="https://raw.githubusercontent.com/Bowley-Systems/PicoMats/refs/heads/main/media/logo.png" 
@@ -23,6 +21,7 @@ made general-purpose.
         style="width:100%; max-width:100%; display:block;"
     >
 </p>
+
 <p align="center">
     Use the material. Sustain the assumptions. <br>
     Reduce uncertainty by making every assumption explicit.
@@ -107,6 +106,9 @@ Hence, use the `fundamental` section.
 
 ### Quick Start
 
+A step-by-step introduction is available in [`example/`](https://github.com/Bowley-Systems/PicoMats/tree/main/example). 
+Below is a standard application:
+
 ```py
 from picomats import mm
 from picomats import Materials
@@ -119,15 +121,7 @@ volume = 100 * mm ** 3
 
 mass = volume * density
 # > Output: 0.896 m(kg)
-
-copper.assumptions.density
-# > Output:
-# >└── Method
-# >    ├── Hydrostatic Balance (Archimedes' Principle)
-# >    └── Media Type: Distilled Water
 ```
-
-> An introduction example is available in [`example/`](https://github.com/Bowley-Systems/PicoMats/tree/main/example).
 
 ---
 
