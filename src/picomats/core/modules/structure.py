@@ -43,7 +43,7 @@ class Node:
     def info(self) -> None:
         """ Recursively prints the structure of the node as a tree. """
         context = LoaderContext()
-        print(f"{self.name}:.")
+        print(f"{self.remove_ordering(self.name)}:.")
 
         # Prints the tree structure
         self.print_contents(context)
@@ -63,17 +63,23 @@ class Node:
 
             else:
                 # Returns the children
-                print(f"{item_context.indent}{connector}{item.name}")
+                children = self.remove_ordering(item.name)
+
+                print(f"{item_context.indent}{connector}{children}")
                 item.print_contents(item_context.next_level())
 
     def _get_items(self) -> list[str | Node]:
         """ Gets node endpoints and children as a list. """
         items = []
         for endpoint in self.endpoint:
-            items.append(endpoint.name)
+            items.append(self.remove_ordering(endpoint.name))
 
         return items + self.children
 
+    @classmethod
+    def remove_ordering(cls, name: str) -> str:
+        """ Removes the non-semantic ordering prefix from a name. """
+        return name.split("-", 1)[-1]
 
 class NodalRepresentation:
     """ Represents the file structure as a nodal network """

@@ -46,20 +46,25 @@ class Manager:
 
         for child in self.ontology.children:
             # Checks if the key is a child and builds the sub-manager.
-            if child.name == key:
+            if Node.remove_ordering(child.name) == key:
                 sub_manager = Manager(ontology=child)
                 setattr(self, key, sub_manager)
                 return sub_manager
 
         for endpoint in self.ontology.endpoint:
             # Checks if the key is an endpoint and imports the material.
-            if endpoint.stem == key:
+            if Node.remove_ordering(endpoint.stem) == key:
                 material = Parser.open(Path(endpoint), loader=Material)
                 setattr(self, key, material)
                 return material
 
         msg = f"{key!r} not found within material ontology."
         raise ManagerError(msg)
+
+    @classmethod
+    def _remove_ordering(cls, name: str) -> str:
+        """ Removes the non-semantic ordering prefix from a name. """
+        return name.split("-", 1)[-1]
 
     def _load_from_package(self) -> None:
         """ Loads the material ontology """
