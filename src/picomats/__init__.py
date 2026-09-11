@@ -51,4 +51,17 @@ __all__ = [
     
     # Heat transfer units
     "volumetric_capacity", "volumetric_heating", "convection_coefficient",
+    
+    # Fundamental physical constants
+    "c", "speed_of_light",
+    "h", "plank_constant",
+    "hbar", "reduced_plank_constant",
+    "G", "gravitational_constant",
+    "e", "elementary_charge",
+    "mu_0", "vacuum_permeability",
+    "eps_0", "vacuum_permittivity",
+    "k_e", "coulomb_constant",
+    "N_A", "avogadro_constant",
+    "k_B", "boltzmann_constant",
+    "R", "gas_constant",
 ]
