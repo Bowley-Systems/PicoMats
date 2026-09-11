@@ -13,6 +13,7 @@ from picounits import Parser, DynamicLoader, inject_unit_frame
 
 from picomats.core.structure import Node, NodalRepresentation
 from picomats.configuration.picomats import ONTOLOGY, DERIVED_UNITS, UNIT_FRAME
+from picomats.utilities.errors import ManagerError
 
 
 class Material(DynamicLoader):
@@ -48,13 +49,13 @@ class Manager:
             return
 
         msg = "Failed to display ontology due to loading error."
-        raise ImportError(msg)
+        raise ManagerError(msg)
 
     def __getattr__(self, key: str) -> Any:
         """ Allows dynamic attribute accesses """
         if self.ontology is None:
-            msg = f"{key!r} not found within material library."
-            raise AttributeError(msg)
+            msg = f"{key!r} not found within material ontology."
+            raise ManagerError(msg)
 
         for child in self.ontology.children:
             # Checks if the key is a child and builds the sub-manager.
@@ -70,8 +71,8 @@ class Manager:
                 setattr(self, key, material)
                 return material
 
-        msg = f"{key!r} not found within material library."
-        raise AttributeError(msg)
+        msg = f"{key!r} not found within material ontology."
+        raise ManagerError(msg)
 
     def _load_from_package(self) -> None:
         """ Loads the material ontology """
@@ -86,5 +87,5 @@ class Manager:
             self.ontology = NodalRepresentation.scan(ontology)
 
         except Exception as err:
-            msg = f"Failed to load library from package resources: {err!r}"
-            raise RuntimeError(msg) from err
+            msg = f"Failed to load ontology from package resources: {err!r}"
+            raise ManagerError(msg) from err
