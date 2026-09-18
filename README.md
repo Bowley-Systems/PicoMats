@@ -135,7 +135,7 @@ pip install PicoMats
 
 #### Documentation
 
-Full documentation is available in the [`docs/`](https://github.com/Bowley-Systems/PicoMats/main/docs) folder, 
+Full documentation is available in the [`docs/`](https://github.com/Bowley-Systems/PicoMats/tree/main/docs) folder, 
 including API reference, changelog, and contributors.
 
 ---
