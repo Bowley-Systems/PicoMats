@@ -101,7 +101,7 @@ Actually, how were these measurements obtained?
 ```
 
 When asking a fundamental question, it's better to build from fundamental properties. <br>
-Hence, use the `fundamental` section.
+Hence the `fundamental` section.
 
 ---
 
