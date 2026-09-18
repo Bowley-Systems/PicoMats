@@ -110,17 +110,17 @@ Hence the `fundamental` section.
 A step-by-step introduction is available in [`example/`](https://github.com/Bowley-Systems/PicoMats/tree/main/tutorial). <br> 
 
 ```py
-from picomats import mm
+from picomats import m
 from picomats import Materials
 
 # Pulls materials into the simulation
 copper = Materials.abstract.pure.copper
 
-density = copper.density
-volume = 100 * mm ** 3
+density = copper.physical.density
+volume = 0.1 * m ** 3
 
 mass = volume * density
-# > Output: 0.896 m(kg)
+# > 893.0 (kg)
 ```
 
 ---

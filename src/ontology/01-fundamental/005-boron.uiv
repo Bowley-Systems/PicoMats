@@ -5,6 +5,8 @@ unit_frame: metric.ut
 # ----------------------------------------------------------------
 
 [sources]
+entry: 0.0.1
+
 pub_chem_element: "https://pubchem.ncbi.nlm.nih.gov/element/Boron"
 
 # ----------------------------------------------------------------

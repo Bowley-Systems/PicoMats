@@ -1,3 +1,35 @@
 [version]
 format: 0.1.2
 unit_frame: metric.ut
+
+# -------------------------------------------------------------------------------------------------
+
+[sources]
+entry: 0.0.1
+
+# References:
+# Add references here.
+
+# -------------------------------------------------------------------------------------------------
+
+[NdFeB.physical]
+density: 7500 (kg/m^3)
+
+poisson_ratio:      0.24
+shear_modulus:      64.0 G(Pa)
+yield_strength:     80.0 M(Pa)
+tensile_strength:   80.0 M(Pa)
+youngs_modulus:     160.0 G(Pa)
+bulk_modulus:       102.6 G(Pa)
+
+[physical.assumptions]
+density: ""
+
+poisson_ratio: ""
+shear_modulus: ""
+yield_strength: ""
+tensile_strength: ""
+youngs_modulus: ""
+bulk_modulus: ""
+
+# -------------------------------------------------------------------------------------------------

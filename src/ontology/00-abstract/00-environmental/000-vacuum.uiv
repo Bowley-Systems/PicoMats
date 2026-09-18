@@ -1,3 +1,70 @@
 [version]
 format: 0.1.2
 unit_frame: metric.ut
+
+# -------------------------------------------------------------------------------------------------
+
+[sources]
+entry: 0.0.1
+
+# References:
+relative_permittivity: "https://en.wikipedia.org/wiki/Relative_permittivity"
+relative_permeability: "https://en.wikipedia.org/wiki/Permeability_(electromagnetism)"
+
+# -------------------------------------------------------------------------------------------------
+
+[physical]
+density: 0 (kg/m^3)
+absolute_viscosity: 0 (Pa*s)
+
+[physical.assumptions]
+density: "A perfect vacuum is empty. Hence the mass per cubic length is zero."
+absolute_viscosity: "A perfect vacuum is empty. Hence it cannot have internal resistance."
+
+# -------------------------------------------------------------------------------------------------
+
+[chemical]
+molar_mass: 0 (kg/mol)
+
+[chemical.assumptions]
+molar_mass: "A perfect vacuum is empty. Hence the mass per amount of substance is zero."
+
+# -------------------------------------------------------------------------------------------------
+
+[electrical]
+relative_permittivity: [1.0, 1.0, 1.0]
+
+temperature_conductivity: [
+  [200.0, 0],
+  [700.0, 0],
+  [1200.0, 0],
+  [1700.0, 0],
+] (K), (S_m)
+
+[electrical.assumptions]
+relative_permittivity: "Relative permittivity is measured in terms of vacuum permittivity."
+
+# -------------------------------------------------------------------------------------------------
+
+[magnetic]
+relative_permeability: [1.0, 1.0, 1.0]
+
+[magnetic.assumptions]
+relative_permeability: "Relative permeability is measured in terms of vacuum permeability."
+
+# -------------------------------------------------------------------------------------------------
+
+[thermal]
+specific_heat: 0 (c)
+
+temperature_conductivity: [
+  [200.0, 0],
+  [800.0, 0],
+  [1600.0, 0],
+  [2000.0, 0]
+] (K), (k)
+
+[thermal.assumptions]
+specific_heat: "A substance with mass is required to have a heat capacity."
+temperature_conductivity: "A substance with mass is required to have thermal conductivity."
+# -------------------------------------------------------------------------------------------------

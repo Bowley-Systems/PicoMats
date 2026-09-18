@@ -6,6 +6,14 @@ Descriptions:
     Introduces the mechanics of picomats via a few examples
 """
 
+from picomats import m
 from picomats import Materials
 
-Materials.info()
+# Pulls materials into the simulation
+copper = Materials.abstract.pure.copper
+
+density = copper.physical.density
+volume = 0.1 * m ** 3
+
+mass = volume * density
+print(mass)
