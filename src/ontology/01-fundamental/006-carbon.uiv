@@ -1,3 +1,57 @@
 [version]
 format: 0.1.2
 unit_frame: metric.ut
+
+# -----------------------------------------------------------------
+
+[sources]
+pub_chem_element: "https://pubchem.ncbi.nlm.nih.gov/element/Carbon"
+
+# -----------------------------------------------------------------
+
+[base]
+protons: 6
+neutrons: 6
+electrons: 6
+
+# -----------------
+
+[isotope.carbon-8]
+neutrons: 2
+
+[isotope.carbon-9]
+neutrons: 3
+
+[isotope.carbon-10]
+neutrons: 4
+
+[isotope.carbon-11]
+neutrons: 5
+
+[isotope.carbon-12]
+neutrons: 6
+
+[isotope.carbon-13]
+neutrons: 7
+
+[isotope.carbon-14]
+neutrons: 8
+
+[isotope.carbon-15]
+neutrons: 9
+
+[isotope.carbon-16]
+neutrons: 10
+
+# -----------------
+
+[ion.cation]
+electrons: 5
+
+[ion.neutral]
+electrons: 6
+
+[ion.anion]
+electrons: 7
+
+# -----------------

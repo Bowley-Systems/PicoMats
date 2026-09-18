@@ -1,3 +1,56 @@
 [version]
 format: 0.1.2
 unit_frame: metric.ut
+
+# ------------------------------------------------------------------
+
+[sources]
+pub_chem_element: "https://pubchem.ncbi.nlm.nih.gov/element/Oxygen"
+
+# ------------------------------------------------------------------
+
+[base]
+protons: 8
+neutrons: 8
+electrons: 8
+# -----------------
+
+[isotope.oxygen-12]
+neutrons: 4
+
+[isotope.oxygen-13]
+neutrons: 5
+
+[isotope.oxygen-14]
+neutrons: 6
+
+[isotope.oxygen-15]
+neutrons: 7
+
+[isotope.oxygen-16]
+neutrons: 8
+
+[isotope.oxygen-17]
+neutrons: 9
+
+[isotope.oxygen-18]
+neutrons: 10
+
+[isotope.oxygen-19]
+neutrons: 11
+
+[isotope.oxygen-20]
+neutrons: 12
+
+# -----------------
+
+[ion.cation]
+electrons: 7
+
+[ion.neutral]
+electrons: 8
+
+[ion.anion]
+electrons: 9
+
+# -----------------

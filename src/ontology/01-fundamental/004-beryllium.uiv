@@ -2,16 +2,19 @@
 format: 0.1.2
 unit_frame: metric.ut
 
+# --------------------------------------------------------------------
 
 [sources]
 pub_chem_element: "https://pubchem.ncbi.nlm.nih.gov/element/Beryllium"
 
+# --------------------------------------------------------------------
 
 [base]
 protons: 4
 neutrons: 5
 electrons: 4
 
+# --------------------
 
 [isotope.beryllium-5]
 neutrons: 1
@@ -37,6 +40,7 @@ neutrons: 7
 [isotope.beryllium-12]
 neutrons: 8
 
+# --------------------
 
 [ion.cation]
 electrons: 3
@@ -46,3 +50,5 @@ electrons: 4
 
 [ion.anion]
 electrons: 5
+
+# --------------------

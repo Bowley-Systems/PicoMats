@@ -1,3 +1,51 @@
 [version]
 format: 0.1.2
 unit_frame: metric.ut
+
+# -------------------------------------------------------------------
+
+[sources]
+pub_chem_element: "https://pubchem.ncbi.nlm.nih.gov/element/Nitrogen"
+
+# -------------------------------------------------------------------
+
+[base]
+protons: 7
+neutrons: 7
+electrons: 7
+
+# -------------------
+
+[isotope.nitrogen-12]
+neutrons: 5
+
+[isotope.nitrogen-13]
+neutrons: 6
+
+[isotope.nitrogen-14]
+neutrons: 7
+
+[isotope.nitrogen-15]
+neutrons: 8
+
+[isotope.nitrogen-16]
+neutrons: 9
+
+[isotope.nitrogen-17]
+neutrons: 10
+
+[isotope.nitrogen-18]
+neutrons: 11
+
+# -------------------
+
+[ion.cation]
+electrons: 6
+
+[ion.neutral]
+electrons: 7
+
+[ion.anion]
+electrons: 8
+
+# -------------------
