@@ -9,6 +9,3 @@ Descriptions:
 from picomats import Materials
 
 Materials.info()
-
-hydrogen = Materials.fundamental.hydrogen
-hydrogen.info()

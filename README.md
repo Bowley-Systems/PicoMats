@@ -107,7 +107,7 @@ Hence the `fundamental` section.
 
 ### Quick Start
 
-A step-by-step introduction is available in [`example/`](https://github.com/Bowley-Systems/PicoMats/tree/main/example). <br> 
+A step-by-step introduction is available in [`example/`](https://github.com/Bowley-Systems/PicoMats/tree/main/tutorial). <br> 
 
 ```py
 from picomats import mm
