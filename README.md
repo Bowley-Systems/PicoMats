@@ -23,7 +23,7 @@ made general-purpose.
 </p>
 
 <p align="center">
-    Use the material. Sustain the assumptions. <br>
+    <strong>Use the material. Sustain the assumptions.</strong> <br>
     Reduce uncertainty by making every assumption explicit.
 </p>
 
