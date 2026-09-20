@@ -3,8 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "PicoMats"
-version = "0.1.1"
+name = "picomats"
+version = "0.1.2"
 description = "A unit-informed, assumption-driven material ontology."
 
 readme = "README.md"

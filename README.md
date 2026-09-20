@@ -29,7 +29,7 @@ made general-purpose.
 
 ### Overview
 
-![Version](https://img.shields.io/badge/Version-0.1.1-006D77?style=flat-square)
+![Version](https://img.shields.io/badge/Version-0.1.2-006D77?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-E14F4C?style=flat-square)
 ![Python Version](https://img.shields.io/badge/Python-3.10%2B-006D77?style=flat-square)
 [![PyPI Downloads](https://img.shields.io/pepy/dt/picomats?label=downloads\&style=flat-square\&color=E14F4C)](https://pepy.tech/projects/picomats)
