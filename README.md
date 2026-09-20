@@ -39,8 +39,9 @@ made general-purpose.
 <strong>PicoMats</strong> is an assumption-driven material ontology that sustains assumptions throughout your pipeline. 
 It provides unit-informed material definitions with accompanying assumptions.  
 
-<br>
-This is the demo/alpha release of <strong>PicoMats</strong>. The library and its ontology will be expanded.
+> This is the demo/alpha release of <strong>PicoMats</strong>. The library and its ontology will be expanded.
+
+### Objectives
 
 ```
 - [x] Follows a computational ontology called `Abstract-Fundamental Ontology`.
