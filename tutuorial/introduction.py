@@ -12,13 +12,15 @@ def next_step(title: str, first: bool = False):
     notation = "" if first else "\n"
     print(f"{notation}{'='*10} {title} {'='*10}")
     input(">>> Press Enter to see this example...")
-    
+
+
 next_step("0: How to view the materials in the ontology", True)
 
 from picomats import Materials
 
 # .info() to view the entries
 Materials.info()
+
 
 next_step("1: How to view entries within entry", True)
 
@@ -27,8 +29,6 @@ from picomats import Materials
 
 # .info() to view the entries
 Materials.abstract.pure.copper.info()
-
-
 
 
 next_step("2: How to use values from entry", True)
