@@ -48,7 +48,7 @@ It provides unit-informed material definitions with accompanying assumptions.
 ```
 
 ---
-
+        
 ### What is the Abstract-Fundamental Ontology?
 
 It is a computational abstraction for both reductionist and pragmatist applications.
