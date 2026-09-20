@@ -2,7 +2,6 @@
   "version": "0.2",
   "language": "en-US",
   "words": [
-    "pyFEA",
     "bowley",
     "picomats",
     "picounits",
@@ -19,6 +18,7 @@
     "milli",
     "centi",
     "pico",
-    "picometer"
+    "picometer",
+    "sdist"
   ]
 }
