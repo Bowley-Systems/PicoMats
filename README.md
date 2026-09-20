@@ -41,15 +41,12 @@ It provides unit-informed material definitions with accompanying assumptions.
 
 > This is the demo/alpha release of <strong>PicoMats</strong>. The library and its ontology will be expanded.
 
-### Objectives
-
 ```
-- [x] Follows a computational ontology called `Abstract-Fundamental Ontology`.
-- [x] Uses `UnitValues` and `PicoUnits` for encoding typed numerical definitions.
-- [/] Tracks assumptions alongside material definitions to reduce model uncertainty.
+- Follows a computational ontology called `Abstract-Fundamental Ontology`.
+- Uses `UnitValues` and `PicoUnits` for encoding typed numerical definitions.
+- Tracks assumptions alongside material definitions to reduce model uncertainty.
 ```
 
-> *(Note). `[ ]` Not started. `[/]` In progress. `[x]` Complete.*
 ---
 
 ### What is the Abstract-Fundamental Ontology?
