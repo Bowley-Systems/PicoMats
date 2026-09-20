@@ -1,0 +1,60 @@
+[version]
+format: 0.1.2
+unit_frame: metric.ut
+
+# ------------------------------------------------------------------
+
+[sources]
+entry: 0.0.1
+
+# References:
+pub_chem_element: "https://pubchem.ncbi.nlm.nih.gov/element/Neon"
+
+# ------------------------------------------------------------------
+
+[base]
+protons: 10
+neutrons: 10
+electrons: 10
+
+# ---------------
+
+[isotope.neon-16]
+neutrons: 6
+
+[isotope.neon-17]
+neutrons: 7
+
+[isotope.neon-18]
+neutrons: 8
+
+[isotope.neon-19]
+neutrons: 9
+
+[isotope.neon-20]
+neutrons: 10
+
+[isotope.neon-21]
+neutrons: 11
+
+[isotope.neon-22]
+neutrons: 12
+
+[isotope.neon-23]
+neutrons: 13
+
+[isotope.neon-24]
+neutrons: 14
+
+# ---------------
+
+[ion.cation]
+electrons: 9
+
+[ion.neutral]
+electrons: 10
+
+[ion.anion]
+electrons: 11
+
+# ---------------

@@ -1,0 +1,57 @@
+[version]
+format: 0.1.2
+unit_frame: metric.ut
+
+# --------------------------------------------------------------------
+
+[sources]
+entry: 0.0.1
+
+# References:
+pub_chem_element: "https://pubchem.ncbi.nlm.nih.gov/element/Beryllium"
+
+# --------------------------------------------------------------------
+
+[base]
+protons: 4
+neutrons: 5
+electrons: 4
+
+# --------------------
+
+[isotope.beryllium-5]
+neutrons: 1
+
+[isotope.beryllium-6]
+neutrons: 2
+
+[isotope.beryllium-7]
+neutrons: 3
+
+[isotope.beryllium-8]
+neutrons: 4
+
+[isotope.beryllium-9]
+neutrons: 5
+
+[isotope.beryllium-10]
+neutrons: 6
+
+[isotope.beryllium-11]
+neutrons: 7
+
+[isotope.beryllium-12]
+neutrons: 8
+
+# --------------------
+
+[ion.cation]
+electrons: 3
+
+[ion.neutral]
+electrons: 4
+
+[ion.anion]
+electrons: 5
+
+# --------------------

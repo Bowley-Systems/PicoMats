@@ -1,2 +1,2 @@
 # pylint: skip-file
-# picomaterials/__init__.py
+# ontology/__init__.py

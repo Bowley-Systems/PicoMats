@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "PicoMats"
-version = "0.0.0"
+version = "0.1.0"
 description = "A unit-informed, assumption-driven material ontology."
 
 readme = "README.md"

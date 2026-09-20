@@ -1,0 +1,57 @@
+[version]
+format: 0.1.2
+unit_frame: metric.ut
+
+# -------------------------------------------------------------------
+
+[sources]
+entry: 0.0.1
+
+# References:
+pub_chem_element: "https://pubchem.ncbi.nlm.nih.gov/element/Fluorine"
+
+# -------------------------------------------------------------------
+
+[base]
+protons: 9
+neutrons: 10
+electrons: 9
+
+# -------------------
+
+[isotope.fluorine-14]
+neutrons: 5
+
+[isotope.fluorine-15]
+neutrons: 6
+
+[isotope.fluorine-16]
+neutrons: 7
+
+[isotope.fluorine-17]
+neutrons: 8
+
+[isotope.fluorine-18]
+neutrons: 9
+
+[isotope.fluorine-19]
+neutrons: 10
+
+[isotope.fluorine-20]
+neutrons: 11
+
+[isotope.fluorine-21]
+neutrons: 12
+
+# -------------------
+
+[ion.cation]
+electrons: 8
+
+[ion.neutral]
+electrons: 9
+
+[ion.anion]
+electrons: 10
+
+# -------------------

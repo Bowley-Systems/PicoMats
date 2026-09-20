@@ -1,14 +1,24 @@
 {
-  "version": "0.2",
   "language": "en-US",
+  "version": "0.2",
   "words": [
-    "pyFEA",
     "bowley",
-    "picomats",
-    "picounits",
+    "centi",
     "generalistic",
-    "pypi",
+    "gi",
+    "giga",
+    "matweb",
+    "milli",
+    "nullset",
     "numpy",
-    "pypa"
+    "pico",
+    "picomaterials",
+    "picomats",
+    "picometer",
+    "picounits",
+    "pypa",
+    "pypi",
+    "pylintrc",
+    "sdist"
   ]
 }

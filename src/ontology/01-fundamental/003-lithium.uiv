@@ -1,0 +1,54 @@
+[version]
+format: 0.1.2
+unit_frame: metric.ut
+
+# ------------------------------------------------------------------
+
+[sources]
+entry: 0.0.1
+
+# References:
+pub_chem_element: "https://pubchem.ncbi.nlm.nih.gov/element/Lithium"
+
+# ------------------------------------------------------------------
+
+[base]
+protons: 3
+neutrons: 4
+electrons: 3
+
+# -----------------
+
+[isotope.lithium-3]
+neutrons: 0
+
+[isotope.lithium-4]
+neutrons: 1
+
+[isotope.lithium-5]
+neutrons: 2
+
+[isotope.lithium-6]
+neutrons: 3
+
+[isotope.lithium-7]
+neutrons: 4
+
+[isotope.lithium-8]
+neutrons: 5
+
+[isotope.lithium-9]
+neutrons: 6
+
+# -----------------
+
+[ion.cation]
+electrons: 2
+
+[ion.neutral]
+electrons: 3
+
+[ion.anion]
+electrons: 4
+
+# ------------------=

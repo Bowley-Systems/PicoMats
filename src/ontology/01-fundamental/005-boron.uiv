@@ -1,0 +1,57 @@
+[version]
+format: 0.1.2
+unit_frame: metric.ut
+
+# ----------------------------------------------------------------
+
+[sources]
+entry: 0.0.1
+
+# References:
+pub_chem_element: "https://pubchem.ncbi.nlm.nih.gov/element/Boron"
+
+# ----------------------------------------------------------------
+
+[base]
+protons: 5
+neutrons: 6
+electrons: 5
+
+# -----------------
+
+[isotope.boron-6]
+neutrons: 1
+
+[isotope.boron-7]
+neutrons: 2
+
+[isotope.boron-8]
+neutrons: 3
+
+[isotope.boron-9]
+neutrons: 4
+
+[isotope.boron-10]
+neutrons: 5
+
+[isotope.boron-11]
+neutrons: 6
+
+[isotope.boron-12]
+neutrons: 7
+
+[isotope.boron-13]
+neutrons: 8
+
+# -----------------
+
+[ion.cation]
+electrons: 4
+
+[ion.neutral]
+electrons: 5
+
+[ion.anion]
+electrons: 6
+
+# -----------------
