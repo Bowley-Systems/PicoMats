@@ -7,6 +7,7 @@ unit_frame: metric.ut
 [sources]
 entry: 0.0.1
 
+# References:
 pub_chem_element: "https://pubchem.ncbi.nlm.nih.gov/element/Helium"
 
 # -----------------------------------------------------------------
@@ -17,7 +18,6 @@ neutrons: 2
 electrons: 2
 
 # ----------------
-
 
 [isotope.helium-3]
 neutrons: 1
@@ -35,7 +35,6 @@ neutrons: 4
 neutrons: 6
 
 # ----------------
-
 
 [ion.cation]
 electrons: 1

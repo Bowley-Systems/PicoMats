@@ -67,4 +67,5 @@ temperature_conductivity: [
 [thermal.assumptions]
 specific_heat: "A substance with mass is required to have a heat capacity."
 temperature_conductivity: "A substance with mass is required to have thermal conductivity."
+
 # -------------------------------------------------------------------------------------------------
